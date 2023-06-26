@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: rgb(226, 225, 225);
+    padding: 6px;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+
+  }
+  
+  form {
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+  }
+  #btnSignin{
+    color: #fff;
+  }
+  .buttonsForm {
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0  #0fc4ce;
+  }
+  
+  .buttonsForm button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+  }
+  
+  .btnColor {
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #0dc0e4, #0ed5df, #0fd1db);
+    border-radius: 30px;
+    transition: .4s;
+  }
+  
+  input[type="email"], input[type="text"], input[type="password"]  {
+    border: .5px solid #11E9F5;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background:linear-gradient(to right, #0dc0e4, #0ed5df, #0fd1db);
+    color: rgb(255, 252, 252);
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+ 
+  #signin {
+    left: 25px;
+  }
+  
+  #signup {
+    left: 450px;
+  }
+  
+  i {
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+  }
+  
+  .iEmail {
+    top: 40px;
+  }
+  
+  .iPassword {
+    top: 114px;
+  }
+  
+  .iPassword2 {
+    top: 190px;
+  }
+
+  /* body animated 
+  #0ECFF5, #0FE9F5, #11E9F5
+  */
+    .area{  
+        background: linear-gradient(to left, #0fc3cc, #10c3cd);  
+        width: 100%;
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+
+    .circles{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .circles li{
+        position: absolute;
+        display: block;
+        list-style: none;
+        width: 20px;
+        height: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        animation: animate 25s linear infinite;
+        bottom: -150px;
+        
+    }
+
+    .circles li:nth-child(1){
+        left: 25%;
+        width: 80px;
+        height: 80px;
+        animation-delay: 0s;
+    }
+
+
+    .circles li:nth-child(2){
+        left: 10%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 2s;
+        animation-duration: 12s;
+    }
+
+    .circles li:nth-child(3){
+        left: 70%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 4s;
+    }
+
+    .circles li:nth-child(4){
+        left: 40%;
+        width: 60px;
+        height: 60px;
+        animation-delay: 0s;
+        animation-duration: 18s;
+    }
+
+    .circles li:nth-child(5){
+        left: 65%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 0s;
+    }
+
+    .circles li:nth-child(6){
+        left: 75%;
+        width: 110px;
+        height: 110px;
+        animation-delay: 3s;
+    }
+
+    .circles li:nth-child(7){
+        left: 35%;
+        width: 150px;
+        height: 150px;
+        animation-delay: 7s;
+    }
+
+    .circles li:nth-child(8){
+        left: 50%;
+        width: 25px;
+        height: 25px;
+        animation-delay: 15s;
+        animation-duration: 45s;
+    }
+
+    .circles li:nth-child(9){
+        left: 20%;
+        width: 15px;
+        height: 15px;
+        animation-delay: 2s;
+        animation-duration: 35s;
+    }
+
+    .circles li:nth-child(10){
+        left: 85%;
+        width: 150px;
+        height: 150px;
+        animation-delay: 0s;
+        animation-duration: 11s;
+    }
+
+
+
+    @keyframes animate {
+
+        0%{
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+            border-radius: 0;
+        }
+
+        100%{
+            transform: translateY(-1000px) rotate(720deg);
+            opacity: 0;
+            border-radius: 50%;
+        }
+
+    }

@@ -1,0 +1,6 @@
+body{
+    background: linear-gradient(to bottom, #0dc0e4, #0ed5df, #0fd1db);
+    display: flex;
+    padding: 15px;
+    overflow-y: hidden;
+}

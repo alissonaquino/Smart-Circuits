@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Circuits | Estudos</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="AdminLTE-3.2.0/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="player.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    
+  </div>
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Documentações</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+     
+
+      <!-- Messages Dropdown Menu -->
+      
+      <!-- Notifications Dropdown Menu -->
+      
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+    
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="#" class="brand-link">
+        
+      <span class="brand-text font-weight-light">Area de Estudos</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+         
+          <li class="nav-item">
+            <a href="player.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=yvrhkFM-dCU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&ab_channel=EngenheiroCripto" onClick="apresentaVideo()">
+                Aula 1 - Circuitos Elétricos I - INTRODUÇÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player2.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=F4jLaFkBDu4&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=2" onClick="apresentaVideo()">
+                Aula 2 - Circuitos Elétricos I - BIPOLOS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player3.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=cQ87MNFY5eY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=3" onClick="apresentaVideo()">
+                Aula 3 - Circuitos Elétricos I - CORRENTE E TENSÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player4.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=J-Hua8BV1o8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=4" onClick="apresentaVideo()">
+                Aula 4 - Circuitos Elétricos I - CONVENÇÕES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player5.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=XFhq4U-cCWI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=5" onClick="apresentaVideo()">
+                Aula 5 - Circuitos Elétricos I - POTÊNCIA E ENERGIA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player6.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=pXp2hpRF3lA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=6" onClick="apresentaVideo()">
+                Aula 6 - Circuitos Elétricos I - FONTES REAIS INDEPENDENTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player7.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=_LfTuTFFXhk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=7" onClick="apresentaVideo()">
+                Aula 7 - Circuitos Elétricos I - FONTES CONTROLADAS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player8.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=K-AEzsiu1KY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=8" onClick="apresentaVideo()">
+                Aula 8 - Circuitos Elétricos I - RESISTORES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player9.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=D-N65hb7lKg&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=9" onClick="apresentaVideo()">
+                Aula 9 - Circuitos Elétricos I - ASSOCIAÇÕ DE RESISTORES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player10.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=C_TBOyt13Ss&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=10" onClick="apresentaVideo()">
+                Aula 10 - Circuitos Elétricos I - ASSOCIAÇÕ DE RESISTORES PARALELO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player11.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=lfzuLPQ8K6s&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=11" onClick="apresentaVideo()">
+                Aula 11 - Circuitos Elétricos I - LAÇOS E MALHAS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player12.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=TohRYD0vErY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=12" onClick="apresentaVideo()">
+                Aula 12 - Circuitos Elétricos I - LEI DE KIRCHHOFF DAS TENSÕES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player13.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=2MhcZj6S4-s&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=13" onClick="apresentaVideo()">
+                Aula 13 - Circuitos Elétricos I - CIRCUITO GERADOR RECEPTOR
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player14.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=dnrJebJI-Z8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=14" onClick="apresentaVideo()">
+                Aula 14 - Circuitos Elétricos I - LKT - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player15.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=t_hDC9FfNtE&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=15" onClick="apresentaVideo()">
+                Aula 15 - Circuitos Elétricos I - LKT - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player16.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=-EDuMRWGxrk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=16" onClick="apresentaVideo()">
+                Aula 16 - Circuitos Elétricos I - LKT - FONTES CONTROLADAS 
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player17.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=jj31PK9yTN0&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=17" onClick="apresentaVideo()">
+                Aula 17 - Circuitos Elétricos I - NÓS EM UM CIRCUITO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player18.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=p-bQMeBUXdc&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=18" onClick="apresentaVideo()">
+                Aula 18 - Circuitos Elétricos I - LEI DE KIRCHHOFF DAS CORRENTES (LKC)
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player19.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=CrauSvI8HcY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=19" onClick="apresentaVideo()">
+                Aula 19 - Circuitos Elétricos I - LKT E LKC - EXERCÍCIO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player20.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=6Ajt6lxu8YE&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=20" onClick="apresentaVideo()">
+                Aula 20 - Circuitos Elétricos I - DIVISOR DE TENSÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=oCJkWzRyX_Q&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=21" onClick="apresentaVideo()">
+                Aula 21 - Circuitos Elétricos I - DIVISOR DE CORRENTE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=1NujQoCvV1A&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=22" onClick="apresentaVideo()">
+                Aula 22 - Circuitos Elétricos I - ASSOCIAÇÃO DE FONTES DE TENSÃO INDEPENDENTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=U9AjoFuuQUk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=23" onClick="apresentaVideo()">
+                Aula 23 - Circuitos Elétricos I - ASSOCIAÇÃO DE FONTES DE CORRENTE INDEPENDENTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=-j0ZT6btyrk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=24" onClick="apresentaVideo()">
+                Aula 24 - Circuitos Elétricos I - EXERCÍCIO - ASSOCIAÇÃO DE RESISTORES E DIVISOR DE CORRENTE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=v3mNDILFaQw&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=25" onClick="apresentaVideo()">
+                Aula 25 - Circuitos Elétricos I - EXERCÍCIO - ASSOCIAÇÃO DE RESISTORES E DIVISOR DE TENSÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=wSd0aFYAFgI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=26" onClick="apresentaVideo()">
+                Aula 26 - Circuitos Elétricos I - EXERCÍCIO - DUAS FONTES INDEPENDENTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Ovk3xhZA5HE&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=27" onClick="apresentaVideo()">
+                Aula 27 - Circuitos Elétricos I - TRÊS FONTES DE TENSÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=FsTYMGU9eT0&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=28" onClick="apresentaVideo()">
+                Aula 28 - Circuitos Elétricos I - FONTE CONTROLADA EM SÉRIE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=xqn-e53xkSk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=29" onClick="apresentaVideo()">
+                Aula 29 - Circuitos Elétricos I - FONTE CONTROLADA DE CORRENTE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=RKy7IewjS94&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=30" onClick="apresentaVideo()">
+                Aula 30 - Circuitos Elétricos I - REGRA DE CRAMER
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=59mBXDxRh_Q&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=31" onClick="apresentaVideo()">
+                Aula 31 - Circuitos Elétricos I - INTRODUÇÃO ÀS TÉCNICAS ANÁLISE NODAL E ANÁLISE DE MALHAS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=2ZFhNmFHnKE&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=32" onClick="apresentaVideo()">
+                Aula 32 - Circuitos Elétricos I - ANÁLISE NODAL
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=AuUxzd4DLYI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=33" onClick="apresentaVideo()">
+                Aula 33 - Circuitos Elétricos I - ANÁLISE NODAL - EXERCÍCIO BÁSICO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=r2NVW6xtUM8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=34" onClick="apresentaVideo()">
+                Aula 34 - Circuitos Elétricos I - ANÁLISE NODAL - EXERCÍCIO BÁSICO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=u4V2T__v0vQ&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=35" onClick="apresentaVideo()">
+                Aula 35 - Circuitos Elétricos I - ANÁLISE NODAL - EXERCÍCIO BÁSICO 3
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=WihbglQgKYM&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=36" onClick="apresentaVideo()">
+                Aula 36 - Circuitos Elétricos I - ANÁLISE NODAL - EXERCÍCIO COM FONTE DE TENSÃO SUPER NÓ
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=JA8iW5kXbdw&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=37" onClick="apresentaVideo()">
+                Aula 37 - Circuitos Elétricos I - ANÁLISE NODAL - SUPER NÓ
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=KF2_Lx6Cack&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=38" onClick="apresentaVideo()">
+                Aula 38 - Circuitos Elétricos I - ANÁLISE NODAL COM FONTES CONTROLADAS E SUPER NÓ
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=H0sFhkwMazc&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=39" onClick="apresentaVideo()">
+                Aula 39 - Circuitos Elétricos I -ANÁLISE DE MALHAS - INTRODUÇÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=h2mPM6v2eCo&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=40" onClick="apresentaVideo()">
+                Aula 40 - Circuitos Elétricos I - ANÁLISE DE MALHAS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=I9ZyF8axUAM&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=41" onClick="apresentaVideo()">
+                Aula 41 - Circuitos Elétricos I - ANÁLISE DE MALHAS - EXERCÍCIO BÁSICO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=I0RQmhfc970&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=42" onClick="apresentaVideo()">
+                Aula 42 - Circuitos Elétricos I - ANÁLISE DE MALHAS - CIRCUITO COM 3 MALHAS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=XME-V1nY4yY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=43" onClick="apresentaVideo()">
+                Aula 43 - Circuitos Elétricos I - ANÁLISE DE MALHAS COM FONTE DE CORRENTE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=JOtDGCkFMWI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=44" onClick="apresentaVideo()">
+                Aula 44 - Circuitos Elétricos I - ANÁLISE DE MALHAS - FONTE CONTROLADA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=gAWP_QtM1aI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=45" onClick="apresentaVideo()">
+                Aula 45 - Circuitos Elétricos I - ANÁLISE DE MALHAS - DUAS FONTES DE CORRENTE (UMA É CONTROLADA)
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=vR8YF601kXc&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=46" onClick="apresentaVideo()">
+                Aula 46 - Circuitos Elétricos I - ANÁLISE DE MALHAS - CALCULANDO UMA CORRENTE NO CIRCUITO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=nLkb9N3fFrU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=47" onClick="apresentaVideo()">
+                Aula 47 - Circuitos Elétricos I - ANÁLISE DE MALHAS - CIRCUITO COM 4 MALHAS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=YiK_IEVMLdg&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=48" onClick="apresentaVideo()">
+                Aula 48 - Circuitos Elétricos I - EXERCÍCIO COM FONTE CONTROLADA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=AMCJwejOHQI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=49" onClick="apresentaVideo()">
+                Aula 49 - Circuitos Elétricos I - FONTES REAIS DE TENSÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=-v33j8Aaqcw&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=50" onClick="apresentaVideo()">
+                Aula 50 - Circuitos Elétricos I - FONTES REAIS - FONTE DE CORRENTE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=ccB2TC8d95c&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=51" onClick="apresentaVideo()">
+                Aula 51 - Circuitos Elétricos I - TRANSFORMAÇÃO DE FONTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=loO0Pu8i04w&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=52" onClick="apresentaVideo()">
+                Aula 52 - Circuitos Elétricos I - TRANSFORMAÇÃO DE FONTES - EXERCÍCIO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=s23it-TRI9s&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=53" onClick="apresentaVideo()">
+                Aula 53 - Circuitos Elétricos I - LINEARIDADE EM CIRCUITOS ELÉTRICOS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=oxZl9YSZTDk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=54" onClick="apresentaVideo()">
+                Aula 54 - Circuitos Elétricos I - LINEARIDADE EM CIRCUITOS - EXERCÍCIO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=YVjKy5-qdLk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=55" onClick="apresentaVideo()">
+                Aula 55 - Circuitos Elétricos I - TEOREMA DA SUPERPOSIÇÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=dhT3tYax9hY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=56" onClick="apresentaVideo()">
+                Aula 56 - Circuitos Elétricos I - TEOREMA DA SUPERPOSIÇÃO COM FONTE CONTROLADA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=DaJadwPI1fw&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=57" onClick="apresentaVideo()">
+                Aula 57 - Circuitos Elétricos I -  TEOREMA DA SUPERPOSIÇÃO - EXERCÍCIO ELABORADO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=9KcbpdKQbuQ&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=58" onClick="apresentaVideo()">
+                Aula 58 - Circuitos Elétricos I - TEOREMA DA MÁXIMA TRANSFERÊNCIA DE POTÊNCIA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=qVrdB8VKoj0&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=59" onClick="apresentaVideo()">
+                Aula 59 - Circuitos Elétricos I - TEOREMAS DE NORTON E THÉVENIN - INTRODUÇÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=8DnUAhiMVKg&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=60" onClick="apresentaVideo()">
+                Aula 60 - Circuitos Elétricos I - TEOREMA DE THÉVENIN
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=lLN3jfs9gOg&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=61" onClick="apresentaVideo()">
+                Aula 61 - Circuitos Elétricos I - TEOREMA DE NORTON
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=WpYhakUiblM&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=62" onClick="apresentaVideo()">
+                Aula 62 - Circuitos Elétricos I - TEOREMAS DE NORTON E THÉVENIN COM FONTES CONTROLADAS - MÉTODO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=udgjkUrZmIg&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=63" onClick="apresentaVideo()">
+                Aula 63 - Circuitos Elétricos I - TEOREMAS DE NORTON E THÉVENIN COM FONTES CONTROLADAS - MÉTODO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=idqocn7aUCk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=64" onClick="apresentaVideo()">
+                Aula 64 - Circuitos Elétricos I - EQ. NORTON E THÉVENIN COM FONTES CONTROLADAS - EXERCÍCIO - MÉTODO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=k8ccPKmgOm4&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=65" onClick="apresentaVideo()">
+                Aula 65 - Circuitos Elétricos I - EQ. DE NORTON E THÉVENIN COM FONTES CONTROLADAS - EXERCÍCIO - MÉTODO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Raitvr0lO8s&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=66" onClick="apresentaVideo()">
+                Aula 66 - Circuitos Elétricos I - AMPLIFICADORES OPERACIONAIS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=-RbcIea_TCc&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=67" onClick="apresentaVideo()">
+                Aula 67 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - INVERSOR
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=z--VAxHQvP8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=68" onClick="apresentaVideo()">
+                Aula 68 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - NÃO INVERSOR
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=ntGaDJL9W0s&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=69" onClick="apresentaVideo()">
+                Aula 69 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - SEGUIDOR DE TENSÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=bLOZoTS_0wA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=70" onClick="apresentaVideo()">
+                Aula 70 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - SOMADOR
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=st5Ij3yCL8w&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=71" onClick="apresentaVideo()">
+                Aula 71 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - SUBTRATOR
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=VNMx44rqcIw&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=72" onClick="apresentaVideo()">
+                Aula 72 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - ENTRADA SENOIDAL
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Xd7Z26JuW8A&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=73" onClick="apresentaVideo()">
+                Aula 73 - Circuitos Elétricos I - CÁLCULO DE V0 E I0
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=bReV8U6zykA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=74" onClick="apresentaVideo()">
+                Aula 74 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - AMPLIFICADORES EM CASCATA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=5GXtRYLwMW4&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=75" onClick="apresentaVideo()">
+                Aula 75 - Circuitos Elétricos I - AMPLIFICADOR OPERACIONAL - AMP OP EM CASCATA COM ENTRADA SENOIDAL
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=K9q54c83Tc4&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=76" onClick="apresentaVideo()">
+                Aula 76 - Circuitos Elétricos I - ANÁLISE NODAL GERAL - ANÁLISE DE LAÇOS - INDEPENDÊNCIA DE EQUAÇÕES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=pV0V3hqlFYo&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=77" onClick="apresentaVideo()">
+                Aula 77 - Circuitos Elétricos I - GRAFOS - PARTE 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=EyBYGs9zlsM&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=78" onClick="apresentaVideo()">
+                Aula 78 - Circuitos Elétricos I - GRAFOS - PARTE 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=U4DbMpo8dbs&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=79" onClick="apresentaVideo()">
+                Aula 79 - Circuitos Elétricos I - CIRCUITOS, GRAFOS E ÁRVORES VÁLIDAS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=NteNt3u15hU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=80" onClick="apresentaVideo()">
+                Aula 80 - Circuitos Elétricos I - ANÁLISE NODAL GERAL
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=NQqyNwtqknk&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=81" onClick="apresentaVideo()">
+                Aula 81 - Circuitos Elétricos I - ANÁLISE DE LAÇOS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=VBgBXFNKHus&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=82" onClick="apresentaVideo()">
+                Aula 82 - Circuitos Elétricos I - ANÁLISE DE LAÇOS - EXERCÍCIO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=5YP3GYdhs4o&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=83" onClick="apresentaVideo()">
+                Aula 83 - Circuitos Elétricos I - ANÁLISE DE LAÇOS EXERCÍCIO ELABORADO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=MjWqzhaECM0&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=84" onClick="apresentaVideo()">
+                Aula 84 - Circuitos Elétricos I - CORTES E ANÁLISE NODAL GERAL
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=1bBRVigoeME&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=85" onClick="apresentaVideo()">
+                Aula 85 - Circuitos Elétricos I - CORTES E ANÁLISE NODAL - EXERCÍCIO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=36VE8GJ6ieI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=86" onClick="apresentaVideo()">
+                Aula 86 - Circuitos Elétricos I - ELEMENTOS ACUMULADORES DE ENERGIA - INTRODUÇÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=BOHrnefFXdo&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=87" onClick="apresentaVideo()">
+                Aula 87 - Circuitos Elétricos I - INDUTORES - CONCEITOS BÁSICOS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=ObW5n1QegAw&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=88" onClick="apresentaVideo()">
+                Aula 88 - Circuitos Elétricos I - INDUTORES - ENERGIA ARMAZENADA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=uluCfF2a5YI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=89" onClick="apresentaVideo()">
+                Aula 89 - Circuitos Elétricos I -  INDUTORES - ENERGIA ARMAZENADA - EXERCÍCIO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Q7NMLH48tTU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=90" onClick="apresentaVideo()">
+                Aula 90 - Circuitos Elétricos I - INDUTORES - VARIAÇÕES ABRUPTAS DE CORRENTE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=W9aprTSMGU4&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=91" onClick="apresentaVideo()">
+                Aula 91 - Circuitos Elétricos I - INDUTORES - REGIME PERMANENTE DE CORRENTE CONTÍNUA (C.C)
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=QixMhbH9B3U&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=92" onClick="apresentaVideo()">
+                Aula 92 - Circuitos Elétricos I - INDUTORES - REGIME PERMANENTE C.C - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=3U5tDVyl3ek&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=93" onClick="apresentaVideo()">
+                Aula 93 - Circuitos Elétricos I - INDUTORES - REGIME PERMANENTE C.C - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=F4H9o9MShYs&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=94" onClick="apresentaVideo()">
+                Aula 94 - Circuitos Elétricos I - INDUTORES - ASSOCIAÇÃO EM SÉRIE
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=HZDmBTFwQwE&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=95" onClick="apresentaVideo()">
+                Aula 95 - Circuitos Elétricos I - INDUTORES - ASSOCIAÇÃO EM PARALELO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=L9jT0tcmpmQ&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=96" onClick="apresentaVideo()">
+                Aula 96 - Circuitos Elétricos I - CAPACITORES - CONCEITOS BÁSICOS
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=bWA3sYUxKkY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=97" onClick="apresentaVideo()">
+                Aula 97 - Circuitos Elétricos I - CAPACITORES - ENERGIA ARMAZENADA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=d8iHuxZVr80&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=98" onClick="apresentaVideo()">
+                Aula 98 - Circuitos Elétricos I - CAPACITORES - ENERGIA ARMAZENADA - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Q1pxwoop2do&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=99" onClick="apresentaVideo()">
+                Aula 99 - Circuitos Elétricos I - CAPACITORES - ENERGIA - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=2X7Su1itE8M&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=100" onClick="apresentaVideo()">
+                Aula 100 - Circuitos Elétricos I - CAPACITORES - VARIAÇÕES ABRUPTAS DE TENSÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Zi4v78SqVD4&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=101" onClick="apresentaVideo()">
+                Aula 101 - Circuitos Elétricos I - CAPACITORES - REGIME PERMANENTE C.C
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=iPTy6Jm9E2A&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=102" onClick="apresentaVideo()">
+                Aula 102 - Circuitos Elétricos I - CAPACITORES - REGIME PERMANENTE C.C - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=KUKof_pFECo&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=103" onClick="apresentaVideo()">
+                Aula 103 - Circuitos Elétricos I - CAPACITORES - REGIME PERMANENTE C.C - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=FX_G0U2FChI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=104" onClick="apresentaVideo()">
+                Aula 104 - Circuitos Elétricos I - INDUTORES E CAPACITORES - REGIME PERMANENTE C.C - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=gcsG90M6CNU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=105" onClick="apresentaVideo()">
+                Aula 105 - Circuitos Elétricos I - INDUTORES E CAPACITORES - REGIME PERMANENTE C.C - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=9qQVnkE4Dhs&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=106" onClick="apresentaVideo()">
+                Aula 106 - Circuitos Elétricos I - ANÁLISE EM t=0 e t=0+
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=4TA-XcF7lRM&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=107" onClick="apresentaVideo()">
+                Aula 107 - Circuitos Elétricos I - ANÁLISE EM t=0 e t=0+ - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Dx3tEmJ8JWQ&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=108" onClick="apresentaVideo()">
+                Aula 108 - Circuitos Elétricos I - ANÁLISE EM t=0- E t=0+ - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=YvzABrd5TRY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=109" onClick="apresentaVideo()">
+                Aula 109 - Circuitos Elétricos I - ANÁLISE EM T=0- e T=0+ - EXERCÍCIO 3
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=herBNSlHy40&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=110" onClick="apresentaVideo()">
+                Aula 110 - Circuitos Elétricos I - ANÁLISE EM t=0- e t=0+ - EXERCÍCIO 4
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=mUv2oZPgKHA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=111" onClick="apresentaVideo()">
+                Aula 111 - Circuitos Elétricos I - CIRCUITOS RL E RC SEM FONTES - INTRODUÇÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=OvaMVCqjdx8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=112" onClick="apresentaVideo()">
+                Aula 112 - Circuitos Elétricos I - CIRCUITO RL SEM FONTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=_Cl3DBLr2U8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=113" onClick="apresentaVideo()">
+                Aula 113 - Circuitos Elétricos I - CIRCUITO RL SEM FONTES - MÉTODO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=usMyHOmjijA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=114" onClick="apresentaVideo()">
+                Aula 114 - Circuitos Elétricos I - CIRCUITO RL SEM FONTES -TENSÃO NO INDUTOR
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=eoS7pJmWGnY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=115" onClick="apresentaVideo()">
+                Aula 115 - Circuitos Elétricos I - CIRCUITO RL SEM FONTES - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=MJoXM2L6U44&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=116" onClick="apresentaVideo()">
+                Aula 116 - Circuitos Elétricos I - CIRCUITO RL SEM FONTES - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=yTF5BLk6cMg&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=117" onClick="apresentaVideo()">
+                Aula 117 - Circuitos Elétricos I - CIRCUITO RL SEM FONTES COM FONTE CONTROLADA - EXERCÍCIO 3 - MÉTODO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=RM_M3EQ8STI&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=118" onClick="apresentaVideo()">
+                Aula 118 - Circuitos Elétricos I - CIRCUITO RL SEM FONTES COM FONTE CONTROLADA - EXERCÍCIO 3 - MÉTODO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=-xyEMk3nRac&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=119" onClick="apresentaVideo()">
+                Aula 119 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - MÉTODO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=pu0y1NJ9fes&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=120" onClick="apresentaVideo()">
+                Aula 120 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - MÉTODO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Gag6_PjOHu8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=121" onClick="apresentaVideo()">
+                Aula 121 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - CORRENTE NO CAPACITOR
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=qeNEXAGbiaU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=122" onClick="apresentaVideo()">
+                Aula 122 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=BaBFFquR4SA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=123" onClick="apresentaVideo()">
+                Aula 123 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=zoaJVIzgl-c&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=124" onClick="apresentaVideo()">
+                Aula 124 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - EXERCÍCIO 3
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=9zMZELAA7LY&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=125" onClick="apresentaVideo()">
+                Aula 125 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - FONTE CONTROLADA MÉTODO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=9000Bzl9rQs&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=126" onClick="apresentaVideo()">
+                Aula 126 - Circuitos Elétricos I - CIRCUITO RC SEM FONTES - FONTE CONTROLADA MÉTODO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=PP-OOQe70zo&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=127" onClick="apresentaVideo()">
+                Aula 127 - Circuitos Elétricos I - CONSTANTE DE TEMPO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=4N5YF7y7Ux4&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=128" onClick="apresentaVideo()">
+                Aula 128 - Circuitos Elétricos I - FUNÇÃO DEGRAU
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=m40d0cjpfgE&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=129" onClick="apresentaVideo()">
+                Aula 129 - Circuitos Elétricos I - CIRCUITOS RL E RC COM FONTES - INTRODUÇÃO
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=k0VA6OcwXos&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=130" onClick="apresentaVideo()">
+                Aula 130 - Circuitos Elétricos I - CIRCUITO RL COM FONTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=Ebmx3IzF_SA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=131" onClick="apresentaVideo()">
+                Aula 131 - Circuitos Elétricos I - CIRCUITO RC COM FONTES
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=McJWC9cxiq0&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=132" onClick="apresentaVideo()">
+                Aula 132 - Circuitos Elétricos I - RESPOSTA COMPLETA - PARTE 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=J5vufS7YcSs&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=133" onClick="apresentaVideo()">
+                Aula 133 - Circuitos Elétricos I - RESPOSTA COMPLETA - CORREÇÃO NA AULA PASSADA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=dpr2TyZyjQA&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=134" onClick="apresentaVideo()">
+                Aula 134 - Circuitos Elétricos I - RESPOSTA COMPLETA - PARTE 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=nL0bcQvJWdU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=135" onClick="apresentaVideo()">
+                Aula 135 - Circuitos Elétricos I - RESPOSTA COMPLETA - PARTE 3
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=biDplWpAutg&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=136" onClick="apresentaVideo()">
+                Aula 136 - Circuitos Elétricos I - RESPOSTA COMPLETA - PARTE 4
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=W2FFwBXnd18&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=137" onClick="apresentaVideo()">
+                Aula 137 - Circuitos Elétricos I - RESPOSTA COMPLETA - EXERCÍCIO 1
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=X-SMgD551O8&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=138" onClick="apresentaVideo()">
+                Aula 138 - Circuitos Elétricos I - RESPOSTA COMPLETA - EXERCÍCIO 2
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=G9WugXi9xdU&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=139" onClick="apresentaVideo()">
+                Aula 139 - Circuitos Elétricos I - RESPOSTA COMPLETA - EXERCÍCIO 3
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player140.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=pRSaRDMIciQ&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=140" onClick="apresentaVideo()">
+                Aula 140 - Circuitos Elétricos I - RESPOSTA COMPLETA - EXERCÍCIO 4
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player141.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=_OPQinY8cSo&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=141" onClick="apresentaVideo()">
+                Aula 141 - Circuitos Elétricos I - RESPOSTA COMPLETA - EXERCÍCIO 5
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player142.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=WMgo21-e5Fs&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=142" onClick="apresentaVideo()">
+                Aula 142 - Circuitos Elétricos I - RESPOSTA COMPLETA - EXERCÍCIO 6
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player143.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=4WDwBHrcOLc&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=143" onClick="apresentaVideo()">
+                Aula 143 - Circuitos Elétricos I - CIRCUITO RLC 2º ORDEM - EXERCÍCIO 3
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="player144.html" class="nav-link">
+              
+              <p id="video1" value="https://www.youtube.com/watch?v=eeEX0e-iQvo&list=PLvbAbTKZk2diP3U3buBter6mQJOkTzCnK&index=144" onClick="apresentaVideo()">
+                Aula 144 - Circuitos Elétricos I - CIRCUITO RLC 2º ORDEM - EXERCÍCIO 6
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Circuitos Elétricos I - LEI DE KIRCHHOFF DAS CORRENTES (LKC)</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="home.php">Home</a></li>
+              <li class="breadcrumb-item active">Area de estudos</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p-bQMeBUXdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="descricao">
+            <p>
+                CONTATOS:
+                Facebook: @guilhermesoueng/
+                <br>
+                Instagram: @guilhermelopes.engenheiro
+                <br>
+                Twitter: @guilhermeSouEng
+                <br>
+                Canal no Telegram: t.me/souEngenheiroCE1
+                <br>
+                Apoia-se: https://apoia.se/souengenheiro    (VOCÊ PODE ME APOIAR COM QUALQUER VALOR CLICANDO NESSE LINK)
+            </p>
+        </div>
+        <div class="comentarios">
+            <h3>Ficou com alguma dúvida? <br> Não se preocupe!!</h3>
+            <span>Temos um sistema de ajuda onde você e outros usuarios podem tirar suas próprias duvidas e se ajudarem.</span>
+
+        </div>
+        <div class="mini-forum">
+            <h3>Deixe abaixo a sua dúvida!</h3>
+            <form >
+                <input type="text" placeholder="Escreva o seu comentário..">
+                
+                <input type="submit" value="Comentar.">
+            </form>
+        </div>
+        <div class="duvidas">
+            <h2>Dúvidas abaixo:</h2>
+            <p>Por enquanto nenhuma dúvida</p>
+        </div>
+  </div>
+  <!-- /.content-wrapper -->
+ 
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="AdminLTE-3.2.0/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="AdminLTE-3.2.0/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="AdminLTE-3.2.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="AdminLTE-3.2.0/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="AdminLTE-3.2.0/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="AdminLTE-3.2.0/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="AdminLTE-3.2.0/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="AdminLTE-3.2.0/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="AdminLTE-3.2.0/plugins/moment/moment.min.js"></script>
+<script src="AdminLTE-3.2.0/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="AdminLTE-3.2.0/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="AdminLTE-3.2.0/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="AdminLTE-3.2.0/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="AdminLTE-3.2.0/dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="AdminLTE-3.2.0/dist/js/pages/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0d767c;
+    background: linear-gradient(to top, #0dc0e4, #0ed5df, #0fd1db); 
+    display: flex;
+    padding: 15px;
+    height: 100vh;
+}
+main{
+    min-width: 400px;
+    max-width: 800px;
+    display: block;
+    min-height: 600px;
+    margin: 25px  auto;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.049);
+}
+section{
+    padding: 20px;
+}
+.perguntas{
+    max-height: 50%;
+    display: flex; 
+    background: rgb(235, 235, 235);
+    border-radius: 30px 30px 0 0 ;
+    box-shadow: 5px 7px 20px rgba(0, 0, 0, 0.053); 
+}
+.area-perguntas h1{
+    color: #0d767c;
+    font-size: 25px;
+}
+.area-perguntas p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto;
+    font-size: 18px;
+}
+.area-perguntas{
+    width: 100%;
+    max-height: 50%;
+    padding: 20px;
+}
+.area-alternativas{
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 3px 7px 20px  rgba(204, 204, 204, 0.131);
+}
+.area-alternativas label{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0d767c;
+}
+.area-respostas input{
+    margin-right: 10px;
+    width: 40px;
+}
+ input[type=radio]:checked{
+    color: red;
+}
+.area-alternativas span{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.local-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.local-img img{
+    height: 120px;
+    width: 180px;
+}
+.previous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+}
+.previous button{
+    width: 200px;
+    height: 35px;
+    background: linear-gradient(to left, #0dc0e4, #0ed5df, #0fd1db);
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: rgb(255, 252, 252);
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.049);   
+    cursor: pointer;
+}
+.previous button:hover{
+    background: linear-gradient(to left, #0fb1d2, #0eb7c0, #0ebdc6);
+}

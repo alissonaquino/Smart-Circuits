@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.video{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.video iframe{
+    width: 80%;
+    height: 80%;
+}
+.descricao{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 auto;
+}
+.descricao p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.comentarios{
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column; 
+    gap: 10px;
+}
+.comentarios h1{
+    font-family: 'Inter', sans-serif;
+}
+.comentarios span{
+    font-size: 19px;
+    text-align: justify;
+}
+.mini-forum{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 0;
+
+}
+.mini-forum form{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mini-forum form input[type="text"]{
+    margin:10px auto;
+    width: 70%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    border: 1.5px solid #45c4d0;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.147);
+}
+.mini-forum form input[type="submit"]{
+    width: 240px;
+    height: 40px;
+    margin: 10px auto;
+    text-transform: uppercase;
+    background: #45c4d0;
+    color: white;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 15px;
+    box-shadow: -2px 5px 15px rgba(0, 0, 0, 0.147);
+    cursor: pointer;
+}
+.duvidas{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    margin: 0 auto;
+}

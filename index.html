@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Teste de forum</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Teste</a></li>
+            <li><a href="#">Teste</a></li>
+            <li><a href="#">Teste</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="modal-forum">
+            
+            <div class="modal-forum-public">
+                <div class="fechar" onclick="fecharModal()">
+                    <p>X</p>
+                </div>
+                <h1>Publique a sua discussão</h1>
+                <input type="text" required placeholder="Digite aqui o assunto" id="content">
+                <button onclick="postforum()">Publicar!</button>
+            </div>
+        </div>
+        <div class="public">
+            <div class="modal-post">
+                <button onclick="modalPublic()">Publicar</button>
+            </div>
+            <div class="buscar">
+                <input type="text" placeholder="O que deseja buscar...">
+            </div>
+        </div>
+        <div class="post-boxes">
+            <div class="forum-posts">
+                <div class="dados-forum-post">
+                    <img class="img-post" src="fotominha.jpeg" alt="foto">
+                    <h3>Talles Amaral<h3>
+                    
+                    <p>22:29</p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat odit architecto asperiores reprehenderit non eligendi sint a iure debitis? Ipsam nisi distinctio magni similique quibusdam eum iusto error maxime tempora!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iure totam quo consequuntur magnam deleniti illum alias quos non commodi voluptas neque dolores nesciunt. Laudantium aliquid nihil delectus ullam voluptate?
+                </p>
+                <div class="interacoes">
+                    <ul>
+                        <li>
+                            <img src="thumbs-up-solid.svg" alt="svg">
+                        </li>
+                        <li >
+                            <img onclick="abrirComentarios()" src="comments-solid.svg" alt="svg">
+                        </li>
+                        <li>
+                            <img src="thumbs-down-solid.svg" alt="svg">
+                        </li>
+                    </ul>
+                    <div id="boxcomentarios"  class="box-comentarios">
+                        <span onclick="fecharComentarios()" class="fechar-comentario">X</span>
+                        <div class="publicar-comentario">
+                            <form >
+                                <input type="text" placeholder="Comentario..">
+                                <input type="submit" value="Comentar!">
+                            </form>
+                        </div>
+                        <div class="comentarios">
+                            <div class="dados-comentarios">
+                                <img class="img-post" src="fotominha.jpeg" alt="foto">
+                                <h3>Talles Amaral<h3>
+                            </div>
+                                <br>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore necessitatibus corporis vero saepe accusantium voluptates. Quam corrupti ab deserunt excepturi! Voluptates ratione rem provident nisi nesciunt quos molestiae nam quidem?</p>
+                        </div>
+                        <div class="comentarios">
+                            <div class="dados-comentarios">
+                                <img class="img-post" src="fotominha.jpeg" alt="foto">
+                                <h3>Talles Amaral<h3>
+                            </div>
+                                <br>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore necessitatibus corporis vero saepe accusantium voluptates. Quam corrupti ab deserunt excepturi! Voluptates ratione rem provident nisi nesciunt quos molestiae nam quidem?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

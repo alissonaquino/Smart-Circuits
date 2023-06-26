@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fontPrincipal: 'Bebas Neue', cursive;
+    --fontSecundaria: 'Barlow Condensed', sans-serif;
+    --fontAlternativa: 'Anton', sans-serif;
+    --cor5: #02C2E0;
+    --cor4: #41D6E8;
+    --cor3: #45C5D1;
+    --cor2: #41DEE8;
+    --cor1: #45CCD1;
+    --cor6: #13547A;
+    --cor7: #80D0C7;
+    --cor8: #4facfe;
+    --cor9: #00f2fe;
+}
+body{
+    background: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.parte01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.parte01 h1{
+    font-family: var(--fontPrincipal);
+    font-size: 40px;
+    width: 80%;
+    margin: 10px auto ;
+
+}
+.parte01 h2{
+    font-family: var(--fontPrincipal);
+    font-size: 25px;
+    width: 80%;
+    margin: 10px auto ;
+}
+.parte01 h3{
+    font-family: var(--fontSecundaria);
+    font-weight: 600;
+    font-size: 25px;
+}
+.parte01 p{
+    font-family: var(--fontSecundaria);
+    font-weight: 600;
+    font-size: 20px;
+}
+.parte01 a{
+    color: #13547A;
+    text-decoration: none;
+}
+.parte01 img{
+    width: 50%;
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+div a{
+    width: 300px;
+    height: 45px;
+    margin-top: 40px;
+    background-color: #45C4D0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Signika Negative', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.334);
+}
